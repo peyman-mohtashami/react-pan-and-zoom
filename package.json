@@ -1,0 +1,55 @@
+{
+	"name": "@peyman-mohtashami/react-pan-and-zoom",
+	"version": "1.0.0",
+	"main": "dist/panAndZoom.js",
+	"module": "dist/panAndZoom.js",
+	"files": [
+		"dist",
+		"README.md"
+	],
+	"author": {
+		"name": "Peyman Mohtashami",
+		"email": "p.mohtashami@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/peyman-mohtashami/react-pan-and-zoom"
+	},
+	"bugs": {
+		"url": "https://github.com/peyman-mohtashami/react-pan-and-zoom/issues"
+	},
+	"homepage": "https://github.com/peyman-mohtashami/react-pan-and-zoom#readme",
+	"dependencies": {
+		"react-scripts": "3.0.1"
+	},
+	"peerDependencies": {
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "rm -rf dist && babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.5.0",
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6"
+	}
+}

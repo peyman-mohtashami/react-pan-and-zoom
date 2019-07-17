@@ -1,6 +1,6 @@
 {
 	"name": "@peyman-mohtashami/react-pan-and-zoom",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "dist/panAndZoom.js",
 	"module": "dist/panAndZoom.js",
 	"files": [

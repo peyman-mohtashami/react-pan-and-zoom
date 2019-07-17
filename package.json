@@ -19,6 +19,13 @@
 		"url": "https://github.com/peyman-mohtashami/react-pan-and-zoom/issues"
 	},
 	"homepage": "https://github.com/peyman-mohtashami/react-pan-and-zoom#readme",
+	"keywords": [
+		"zoom",
+		"pan",
+		"pinchzoom",
+		"wheelzoom",
+		"doubletap"
+	],
 	"dependencies": {
 		"react-scripts": "3.0.1"
 	},

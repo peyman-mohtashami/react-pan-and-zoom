@@ -12,6 +12,10 @@ A react component for zooming and panning images.
 -   Double click for zoom-in/out
 -   Double tap for zoom-in/out on touch devices
 
+### Demo
+
+[http://virtechgroup.com/react-demo/react-pan-and-zoom/](http://virtechgroup.com/react-demo/react-pan-and-zoom/)
+
 ## Installation
 
 ### npm

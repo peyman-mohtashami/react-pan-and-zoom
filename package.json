@@ -26,15 +26,13 @@
 		"wheelzoom",
 		"doubletap"
 	],
-	"dependencies": {
-		"react-scripts": "3.0.1"
-	},
 	"peerDependencies": {
 		"react": "^16.8.6",
 		"react-dom": "^16.8.6"
 	},
 	"scripts": {
 		"start": "react-scripts start",
+		"build-demo": "react-scripts build",
 		"build": "rm -rf dist && babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
@@ -57,6 +55,7 @@
 	"devDependencies": {
 		"@babel/cli": "^7.5.0",
 		"react": "^16.8.6",
-		"react-dom": "^16.8.6"
+		"react-dom": "^16.8.6",
+		"react-scripts": "3.0.1"
 	}
 }

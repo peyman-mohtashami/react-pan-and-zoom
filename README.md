@@ -57,6 +57,7 @@ import PanAndZoom from "@peyman-mohtashami/react-pan-and-zoom";
 -   Samsung Internet 9.2.10.15
 -   Brave 0.66.99
 
+
 ## License
 
 Licensed under the [MIT License](http://opensource.org/licenses/MIT).
